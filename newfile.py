@@ -28,8 +28,8 @@ from telegram.ext import (
 TOKEN = os.environ.get("BOT_TOKEN", "").strip()
 ADMIN_IDS = {8485299821}
 
-CHANNEL_ID = "@stylishnamemaker"
-CHANNEL_URL = "https://t.me/stylishnamemaker"
+CHANNEL_ID = "@X_Ankitsopurts"
+CHANNEL_URL = "https://t.me/X_Ankitsopurts"
 
 DB_NAME = "bot_users.db"
 HISTORY_LIMIT = 10
