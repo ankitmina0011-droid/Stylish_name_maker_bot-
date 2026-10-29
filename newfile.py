@@ -25,7 +25,7 @@ from telegram.ext import (
 # BOT SETTINGS
 # =====================================================
 
-TOKEN = 8649117204:AAGdsp9dJ6CSGqJow41-KeCNzgmxsmwdWCE
+TOKEN = os.environ.get("BOT_TOKEN", "").strip()
 ADMIN_IDS = {8485299821}
 
 CHANNEL_ID = "@X_Ankitsopurts"
